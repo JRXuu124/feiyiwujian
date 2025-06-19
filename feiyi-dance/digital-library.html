@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字资源库 - 非遗舞鉴</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="非遗舞鉴">
+                <h1>非遗舞鉴</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li class="active"><a href="digital-library.html">数字资源库</a></li>
+                    <li><a href="online-education.html">在线教育</a></li>
+                    <li><a href="cultural-products.html">文创产品</a></li>
+                    <li><a href="tourism-services.html">文旅服务</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">☰</div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>数字资源库</h2>
+            <p>探索300+种少数民族舞蹈的数字化档案</p>
+        </div>
+    </section>
+
+    <section class="library-search">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="搜索舞蹈名称、民族或地区...">
+                <button>搜索</button>
+            </div>
+            <div class="search-filters">
+                <div class="filter-group">
+                    <label>按民族分类</label>
+                    <select>
+                        <option>全部民族</option>
+                        <option>藏族</option>
+                        <option>维吾尔族</option>
+                        <option>蒙古族</option>
+                        <option>彝族</option>
+                        <option>苗族</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>按舞蹈类型</label>
+                    <select>
+                        <option>全部类型</option>
+                        <option>祭祀舞</option>
+                        <option>节庆舞</option>
+                        <option>生产舞</option>
+                        <option>生活舞</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>按地区</label>
+                    <select>
+                        <option>全部地区</option>
+                        <option>西南地区</option>
+                        <option>西北地区</option>
+                        <option>东北地区</option>
+                        <option>华南地区</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dance-results">
+        <div class="container">
+            <div class="results-grid">
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance1.png" alt="藏族锅庄舞">
+                        <div class="dance-badge">3D模型</div>
+                    </div>
+                    <h3>藏族锅庄舞</h3>
+                    <p>藏族传统民间舞蹈，常在节日和庆典上表演...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance2.png" alt="傣族孔雀舞">
+                        <div class="dance-badge">动作分解</div>
+                    </div>
+                    <h3>傣族孔雀舞</h3>
+                    <p>模仿孔雀优美姿态的傣族传统舞蹈...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance3.png" alt="蒙古族安代舞">
+                        <div class="dance-badge">VR体验</div>
+                    </div>
+                    <h3>蒙古族安代舞</h3>
+                    <p>蒙古族传统祭祀舞蹈，具有悠久历史...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance4.png" alt="彝族左脚舞">
+                        <div class="dance-badge">3D模型</div>
+                    </div>
+                    <h3>彝族左脚舞</h3>
+                    <p>彝族传统集体舞蹈，节奏欢快热烈...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance5.png" alt="苗族芦笙舞">
+                        <div class="dance-badge">动作分解</div>
+                    </div>
+                    <h3>苗族芦笙舞</h3>
+                    <p>苗族传统舞蹈，伴随芦笙音乐表演...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+                <div class="dance-item">
+                    <div class="dance-image">
+                        <img src="images/dance6.png" alt="维吾尔族赛乃姆">
+                        <div class="dance-badge">VR体验</div>
+                    </div>
+                    <h3>维吾尔族赛乃姆</h3>
+                    <p>维吾尔族传统民间舞蹈，风格活泼优美...</p>
+                    <a href="#" class="btn">查看详情</a>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">下一页 →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="advanced-search">
+        <div class="container">
+            <h3>高级搜索</h3>
+            <div class="advanced-features">
+                <div class="feature">
+                    <div class="icon">💃</div>
+                    <h4>动作特征搜索</h4>
+                    <p>通过描述舞蹈动作特征查找相关舞蹈</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🎵</div>
+                    <h4>音乐节奏搜索</h4>
+                    <p>根据音乐节奏特点匹配舞蹈</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">👘</div>
+                    <h4>服饰道具搜索</h4>
+                    <p>通过服饰或道具特征查找舞蹈</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="非遗舞鉴">
+                        <h3>非遗舞鉴</h3>
+                    </div>
+                    <p>少数民族舞蹈数字保护与活态传承平台</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="digital-library.html">数字资源库</a></li>
+                        <li><a href="online-education.html">在线教育</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <p>邮箱: contact@feiyidance.com</p>
+                    <p>电话: 010-12345678</p>
+                    <div class="social-media">
+                        <a href="#">微信</a>
+                        <a href="#">微博</a>
+                        <a href="#">抖音</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 非遗舞鉴 版权所有</p>
+                <p>京ICP备12345678号</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
